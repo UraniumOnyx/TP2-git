@@ -35,6 +35,10 @@ public class Document {
         remplacer(start,end,"");
     }
 
+    public void clear(){
+        effacer(0,texte.length()-2);
+    }
+
     @Override
     public String toString() {
         return this.texte;
