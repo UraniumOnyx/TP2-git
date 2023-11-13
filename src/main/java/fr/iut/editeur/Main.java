@@ -8,6 +8,10 @@ import fr.iut.editeur.commande.factory.CommandeFactory;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * la méthode main qui permet de lancer le projet
+     * @param args des arguments
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Document document = new Document();

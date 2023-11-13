@@ -16,6 +16,13 @@ public class CommandeFactory {
 
     private CommandeFactory() {}
 
+    /**
+     * la méthode createCommande permet de creer une commande
+     * @param name le nom de la commande
+     * @param document sur quel document aappliquer la commande
+     * @param parameters les possibles parametres de la commande
+     * @return null si la commande n'existe pas
+     */
     public Commande createCommand(String name, Document document, String[] parameters) {
         switch (name) {
             case "ajouter": return new CommandeAjouter(document, parameters);

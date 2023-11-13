@@ -1,5 +1,8 @@
 package fr.iut.editeur.document;
 
+/**
+ * la classe document qui permet de gerer des documents
+ */
 public class Document {
 
     private String texte;
