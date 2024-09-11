@@ -11,6 +11,7 @@ public class DocumentTest extends TestCase {
         assertEquals(banane.getTexte(),"Bonjour");
     }
 
+
     public void testSupprimerTexte() {
         Document banane = new Document();
         banane.ajouter("Bonjour");
