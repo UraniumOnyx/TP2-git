@@ -5,13 +5,14 @@ import org.junit.Test;
 
 public class DocumentTest extends TestCase {
 
+    @Test
     public void testAjouterTexte() {
         Document banane = new Document();
         banane.ajouter("Bonjour");
         assertEquals(banane.getTexte(),"Bonjour");
     }
 
-
+    @Test
     public void testSupprimerTexte() {
         Document banane = new Document();
         banane.ajouter("Bonjour");
@@ -19,6 +20,7 @@ public class DocumentTest extends TestCase {
         assertEquals(banane.getTexte(),"jour");
     }
 
+    @Test
     public void testModifierTexte() {
         Document banane = new Document();
         banane.ajouter("Bonjour");
