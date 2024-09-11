@@ -1,9 +1,10 @@
 package fr.iut.editeur.document;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class DocumentTest extends TestCase {
+
+public class DocumentTest {
 
     @Test
     public void testAjouterTexte() {
